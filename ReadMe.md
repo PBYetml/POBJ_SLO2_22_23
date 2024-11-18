@@ -74,7 +74,7 @@ prenez celui-qui vous convient
 | Exercices \ Initial Etudiant | **[NBN](https://github.com/NicolasBessson)** | **[MBR](https://github.com/MathieuBucher)** | **[TCT](https://github.com/Tass1l0)** | **[ACL](https://github.com/Sweedy3960)** | **[EDO](https://github.com/etideoliveira)** | **[NEG](https://github.com/Larssno)** | **[VCO](https://github.com/kediven)** | **[LMS](https://github.com/LeoMendesEsEtml)** | **[MSI](https://github.com/MatteoStefanelli)** | 
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | UML | | | | | | | | | | 
-| [Ex1](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex1_UML) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
+| [Ex1](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex1_UML) | NOK | NOK | OK | OK | OK | NOK | NOK | NOK | OK |
 | C++ | | | | | | | | | |
 | [Ex2](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex2_ConversionC_POO) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
 | [Ex3](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex3_Fonctions_POO) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
@@ -117,7 +117,7 @@ prenez celui-qui vous convient
 * donnee : exercice 1 - UML  
 * codage "individuel" 
 * voir chapitre théorique : UML -> Ch1, Ch2, Ch3
-* etat d'avancement => voir []()
+* etat d'avancement => voir [#1](https://github.com/PBYetml/POBJ_SLO2_24_25/issues/22)
 
 ## Exercice 2 => **C++**
 ### Suivi Projet  
