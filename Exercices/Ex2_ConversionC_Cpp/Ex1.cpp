@@ -1,6 +1,6 @@
 // Caneva Ex1 SL228_POBJ language C++ 
-// Visual Studio 2015
-// 11.11.2016 C. Huber
+// Visual Studio 2022
+// 18.11.2024 E. De Oliveira
 
 #include <iostream>
 
