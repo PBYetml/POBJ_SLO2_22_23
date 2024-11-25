@@ -8,9 +8,9 @@ class Rectangle : public FormesGeometriques {
 
  public:
 
-    double CalculerSurface(double largeur, double hauteur);
+    void CalculerSurface(double largeur, double hauteur);
 
-    double CalculerPerimetre(double largeur, double hauteur);
+    void CalculerPerimetre(double largeur, double hauteur);
 };
 
 #endif // Rectangle_h

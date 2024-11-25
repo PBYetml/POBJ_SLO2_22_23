@@ -6,9 +6,9 @@ class FormesGeometriques {
 
  public:
 
-    virtual double CalculerSurface(double x1, double x2);
+    virtual void CalculerSurface(double x1, double x2);
 
-    virtual double CalculerSurface(double x1, double x2);
+    virtual void CalculerPerimetre(double x1, double x2);
 
     double GetSurface();
 

@@ -18,7 +18,8 @@ class Utilisateur {
 
  private:
     int m_CodeFormeChoisie;
-
+    float m_x1;
+    float m_x2;
  public:
 
     /**
