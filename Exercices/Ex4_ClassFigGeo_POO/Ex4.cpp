@@ -1,15 +1,27 @@
-// Canevas Ex4  SL228_POBJ  CPP
-// C. Huber 13.12.2016
-
-#include <iostream>
-using namespace std;
-
 #include "Utilisateur.h"
+#include <iostream>
 
-int main (void)
-{
-	Utilisateur UserA, UserB, UserC;
+int main() {
+    Utilisateur UserA, UserB, UserC;
 
+    std::cout << "Pour l'utilisateur A : TriangleRectangle" << std::endl;
+    UserA.ChoisirForme(0); // Choix de TriangleRectangle
+    UserA.SaisirLesParametres();
+    UserA.ExecuterLesCalculs();
+    UserA.AfficherResultats();
 
-	return 0;
+    std::cout << "\nPour l'utilisateur B : Rectangle" << std::endl;
+    UserB.ChoisirForme(1); // Choix de Rectangle
+    UserB.SaisirLesParametres();
+    UserB.ExecuterLesCalculs();
+    UserB.AfficherResultats();
+
+    std::cout << "\nPour l'utilisateur C : Cercle" << std::endl;
+    UserC.ChoisirForme(2); // Choix de Cercle
+    UserC.SaisirLesParametres();
+    UserC.ExecuterLesCalculs();
+    UserC.AfficherResultats();
+
+    std::cout << "\nAppuyez sur Q pour quitter !" << std::endl;
+    return 0;
 }

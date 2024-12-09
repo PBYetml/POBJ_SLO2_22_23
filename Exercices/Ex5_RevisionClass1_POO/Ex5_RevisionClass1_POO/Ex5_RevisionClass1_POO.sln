@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex5_RevisionClass1_POO", "Ex5_RevisionClass1_POO.vcxproj", "{3E04B265-F24E-4359-B1E7-70D038F52A83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{C442E5D6-864A-4749-9712-BDCD86F20C82}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Dessinateur.cpp = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Dessinateur.cpp
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Dessinateur.h = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Dessinateur.h
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Ellipse.cpp = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Ellipse.cpp
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Ellipse.h = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Ellipse.h
+		..\Ex5.cpp = ..\Ex5.cpp
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Figure.cpp = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Figure.cpp
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Figure.h = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Figure.h
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Ligne.cpp = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Ligne.cpp
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Ligne.h = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Ligne.h
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Point.cpp = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Point.cpp
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Point.h = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Point.h
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Rectangle.cpp = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Rectangle.cpp
+		..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Rectangle.h = ..\..\..\..\Exercices\Ex5_RevisionClass1_POO\Rectangle.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E04B265-F24E-4359-B1E7-70D038F52A83}.Debug|x64.ActiveCfg = Debug|x64
+		{3E04B265-F24E-4359-B1E7-70D038F52A83}.Debug|x64.Build.0 = Debug|x64
+		{3E04B265-F24E-4359-B1E7-70D038F52A83}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E04B265-F24E-4359-B1E7-70D038F52A83}.Debug|x86.Build.0 = Debug|Win32
+		{3E04B265-F24E-4359-B1E7-70D038F52A83}.Release|x64.ActiveCfg = Release|x64
+		{3E04B265-F24E-4359-B1E7-70D038F52A83}.Release|x64.Build.0 = Release|x64
+		{3E04B265-F24E-4359-B1E7-70D038F52A83}.Release|x86.ActiveCfg = Release|Win32
+		{3E04B265-F24E-4359-B1E7-70D038F52A83}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F78EFB5-9F9E-4C6D-A3D0-E40EAE2F6771}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿  Ex4.cpp
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Ex4.cpp(33,37): error C2248: 'Utilisateur::m_CodeFormeChoisie' : impossible d'accéder à private membre déclaré(e) dans la classe 'Utilisateur'
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Utilisateur.h(10): message : voir la déclaration de 'Utilisateur::m_CodeFormeChoisie'
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Utilisateur.h(7): message : voir la déclaration de 'Utilisateur'
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Ex4.cpp(37,37): error C2248: 'Utilisateur::m_CodeFormeChoisie' : impossible d'accéder à private membre déclaré(e) dans la classe 'Utilisateur'
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Utilisateur.h(10): message : voir la déclaration de 'Utilisateur::m_CodeFormeChoisie'
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Utilisateur.h(7): message : voir la déclaration de 'Utilisateur'
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Ex4.cpp(41,37): error C2248: 'Utilisateur::m_CodeFormeChoisie' : impossible d'accéder à private membre déclaré(e) dans la classe 'Utilisateur'
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Utilisateur.h(10): message : voir la déclaration de 'Utilisateur::m_CodeFormeChoisie'
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Utilisateur.h(7): message : voir la déclaration de 'Utilisateur'

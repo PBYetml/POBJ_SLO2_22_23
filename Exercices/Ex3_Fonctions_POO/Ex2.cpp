@@ -8,7 +8,15 @@ using namespace std;
 
 
 // Fonction Extract
-
+// Fonction Extract
+unsigned short Extract(unsigned long totalSeconds, unsigned short& hours, unsigned short& minutes) {
+	// Calcul des heures
+	hours = totalSeconds / 3600;
+	// Calcul des minutes restantes
+	minutes = (totalSeconds % 3600) / 60;
+	// Retourne les secondes restantes
+	return totalSeconds % 60;
+}
 
 // Fonction AfficheB
 
@@ -20,11 +28,12 @@ int main (void)
 {
 	char UserAnswer;
 	int ValA, ValB;
+	unsigned short hours, minutes, seconds; // Variables pour Test A
 	// Variables pour test A, B et C
 	
 
 	// a adapter
-	cout << "Exercice 2 : Huber Christian" << endl;
+	cout << "Exercice 2 : Mendes Leo" << endl;
 
 
 	do {
@@ -36,7 +45,16 @@ int main (void)
 			case 'a':
 				cout << "TestA: entrez un nombre de secondes" << endl;
 				cin >> ValA;
-				
+				if (ValA >= 0) {
+					seconds = Extract(static_cast<unsigned long>(ValA), hours, minutes);
+					cout << "ValA = " << ValA
+						<< " NbHeures = " << hours
+						<< " NbMinutes = " << minutes
+						<< " NbSecondes = " << seconds << endl;
+				}
+				else {
+					cout << "Veuillez entrer une valeur positive." << endl;
+				}
 			break;
 
 			case 'B':
