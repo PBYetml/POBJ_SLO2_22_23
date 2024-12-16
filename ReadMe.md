@@ -76,7 +76,7 @@ prenez celui-qui vous convient
 | UML | | | | | | | | | | 
 | [Ex1](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex1_UML) | NOK | NOK | OK | OK | OK | NOK | NOK | NOK | OK |
 | C++ | | | | | | | | | |
-| [Ex2](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex2_ConversionC_POO) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
+| [Ex2](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex2_ConversionC_POO) | NOK | NOK | NOK | NOK | OK | NOK | OK | NOK |  NOK |
 | [Ex3](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex3_Fonctions_POO) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
 | [Ex4](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex4_ClassFigGeo_POO) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
 | [Ex5]() | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
@@ -113,17 +113,21 @@ prenez celui-qui vous convient
 | Ex10 | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | 
 
 ## Exercice 1 => **UML**
-### Suivi Projet 
 * donnee : exercice 1 - UML  
-* codage "individuel" 
 * voir chapitre théorique : UML -> Ch1, Ch2, Ch3
-* etat d'avancement => voir [#1](https://github.com/PBYetml/POBJ_SLO2_24_25/issues/22)
+* etat d'avancement => voir [#22](https://github.com/PBYetml/POBJ_SLO2_24_25/issues/22)
 
-## Exercice 2 => **C++**
-### Suivi Projet  
+## Exercice 2 => **C++** 
 * donnee : exercice 1 - C++
 * codage "individuel"
 * etat d'avancement => voir []()
+
+
+
+
+
+
+
 
 ## Exercice 2 => **C#**
 ### Suivi Projet  
@@ -131,7 +135,7 @@ prenez celui-qui vous convient
 * codage "individuel"	 
 * etat d'avancement => voir []()
 
-## Exercice 2 => **JAVA**
+## Exercice 3 => **JAVA**
 ### Suivi Projet  
 * donnee : exercice 1 - C++ 
 * codage "individuel"

@@ -11,19 +11,28 @@ class Personnage {
 
     void boirePotionDeVie(int Quantite);
 
-    void Attaquer(Personnage &Cible);
+    void Attaquer(Personnage &Cible);     // passage par reference 
 
     void RecevoirDegats(int nbDegats);
 
     int GetVie();
 
-    Personnage();
 
+	// surcharge de constructeur 
+	// constructeur par défaut 
+	// constructeur -> aucun paramètre de sortie 
+    Personnage();
+	
+	// constructeur surchargé 
     Personnage(int ValVie);
+	
+	// destructeur -> lié à un objet dynamique 
+	// aucun paramètre d'entrée
+	~Personnage();
 
 
  private:
-    int m_vie;
+    int m_vie;		// mémoire statique 
 
  public:
 
@@ -31,7 +40,8 @@ class Personnage {
     /**
      * @element-type Arme
      */
-    Arme *myArme;
+    Arme *myArme;	// mémoire dynamique 
+	Arme myArme2;	// mémoire statique  
 };
 
 #endif // Personnage_h

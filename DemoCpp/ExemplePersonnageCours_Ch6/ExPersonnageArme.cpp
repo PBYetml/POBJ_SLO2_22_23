@@ -16,10 +16,12 @@ int main(void)
 	string test;                                 
 
 	// déclaration des personnage
+	// Class -> OBJET 
 	Personnage Bob, Alain;
 
 	// Attribution d'une arme à chaque personnage
-	Bob.myArme = new Epee("glaive", 40);
+	//myArme = objet => association 
+	Bob.myArme = new Epee("glaive", 40);  // -> objet dynamique 
 	Bob.myArme = new Hache("Bois", 20); 
 
 
@@ -57,7 +59,7 @@ int main(void)
 	cout << "Niveau vie de Bob : " << Bob.GetVie()  << endl;
 	cout << endl;
 
-	// Test de delete 
+	// Test de delete -> lien avec le destructeur 
 	delete Bob.myArme;
 	delete Alain.myArme;
 
