@@ -1,16 +1,8 @@
-﻿  Rectangle.cpp
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\Rectangle.cpp(10,5): error C2562: 'Rectangle::CalculerSurface' : fonction 'void' retournant une valeur
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\Rectangle.cpp(6): message : voir la déclaration de 'Rectangle::CalculerSurface'
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\Rectangle.cpp(19,5): error C2562: 'Rectangle::CalculerPerimetre' : fonction 'void' retournant une valeur
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\Rectangle.cpp(15): message : voir la déclaration de 'Rectangle::CalculerPerimetre'
+﻿  Ex4.cpp
+  Cercle.cpp
+  FormesGeometriques.cpp
+  Rectangle.cpp
   TriangleRectangle.cpp
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\TriangleRectangle.h(11,12): error C2555: 'TriangleRectangle::CalculerSurface' : le type de retour de la fonction virtuelle de substitution diffère de 'FormesGeometriques::CalculerSurface' et n'est pas covariant
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\FormesGeometriques.h(9): message : voir la déclaration de 'FormesGeometriques::CalculerSurface'
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\TriangleRectangle.h(13,12): error C2555: 'TriangleRectangle::CalculerPerimetre' : le type de retour de la fonction virtuelle de substitution diffère de 'FormesGeometriques::CalculerPerimetre' et n'est pas covariant
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\FormesGeometriques.h(11): message : voir la déclaration de 'FormesGeometriques::CalculerPerimetre'
   Utilisateur.cpp
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\TriangleRectangle.h(11,12): error C2555: 'TriangleRectangle::CalculerSurface' : le type de retour de la fonction virtuelle de substitution diffère de 'FormesGeometriques::CalculerSurface' et n'est pas covariant
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\FormesGeometriques.h(9): message : voir la déclaration de 'FormesGeometriques::CalculerSurface'
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\TriangleRectangle.h(13,12): error C2555: 'TriangleRectangle::CalculerPerimetre' : le type de retour de la fonction virtuelle de substitution diffère de 'FormesGeometriques::CalculerPerimetre' et n'est pas covariant
-C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\FormesGeometriques.h(11): message : voir la déclaration de 'FormesGeometriques::CalculerPerimetre'
   Génération de code en cours...
+  Exercice4.vcxproj -> C:\ACL\dev\pobj\POBJ_SLO2_24_25\Exercices\Ex4_ClassFigGeo_POO\Exercice4\x64\Debug\Exercice4.exe

@@ -8,9 +8,9 @@ class Cercle : public FormesGeometriques {
 
  public:
 
-    double CalculerSurface(double diametre);
+     void CalculerSurface(double diametre, double zed);
 
-    double CalculerPerimetre(double diametre);
+     void CalculerPerimetre(double diametre, double zed);
 };
 
 #endif // Cercle_h

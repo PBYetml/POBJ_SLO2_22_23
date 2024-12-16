@@ -8,9 +8,10 @@ class TriangleRectangle : public FormesGeometriques {
 
  public:
 
-    double CalculerSurface(double base, double hauteur);
+     void CalculerSurface(double base, double hauteur);
 
-    double CalculerPerimetre(double base, double hauteur);
+     void CalculerPerimetre(double base, double hauteur);
+
 };
 
 #endif // TriangleRectangle_h
