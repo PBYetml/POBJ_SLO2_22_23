@@ -1,0 +1,10 @@
+﻿  demo.cpp
+C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\Project1\demo.cpp(28,1): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
+C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\Project1\demo.cpp(54,24): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\Project1\demo.cpp(110,25): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\Project1\demo.cpp(112,26): warning C4267: '=' : conversion de 'size_t' en 'short', perte possible de données
+C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\Project1\demo.cpp(37,7): warning C4101: 'valE' : variable locale non référencée
+C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\Project1\demo.cpp(117,18): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\Project1\demo.cpp(122,17): warning C4244: 'return' : conversion de 'float' en 'int', perte possible de données
+C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\Project1\demo.cpp(127,24): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+  Project1.vcxproj -> C:\EDA\POBJ_SLO2_24_25Perso\CodeEtudiants\EDA\C++\Project1\x64\Debug\Project1.exe
