@@ -1,43 +1,32 @@
-// Fichier Ex5.cpp
-// Programme principal pour utiliser Dessinateur et Figure
-
+// Ex5.cpp
 #include <iostream>
-using namespace std; 
-
 #include "Dessinateur.h"
 
-int main(void)
-{
-	char Rep;
-	Dessinateur DessinateurA, DessinateurB, DessinateurC;
-	// Déclaration et création des dessinateurs
-	
-	DessinateurA.ConstruireFigure('L');
-	DessinateurB.ConstruireFigure('R');
-	DessinateurC.ConstruireFigure('E');
+int main() {
+    char Rep;
+    Dessinateur DessinateurA, DessinateurB, DessinateurC;
 
+    // Création des dessinateurs avec différentes figures
+    DessinateurA.ConstruireFigure('L'); // Ligne
+    DessinateurB.ConstruireFigure('R'); // Rectangle
+    DessinateurC.ConstruireFigure('E'); // Ellipse
 
-	DessinateurA.SaisirPositionXY(1);
-	DessinateurA.SaisirPositionXY(2);
+    // Saisie des positions pour chaque dessinateur
+    DessinateurA.SaisirPositionXY(1);
+    DessinateurA.SaisirPositionXY(2);
+    DessinateurB.SaisirPositionXY(1);
+    DessinateurB.SaisirPositionXY(2);
+    DessinateurC.SaisirPositionXY(1);
+    DessinateurC.SaisirPositionXY(2);
 
-	DessinateurB.SaisirPositionXY(1);
-	DessinateurB.SaisirPositionXY(2);
+    // Dessin des figures
+    DessinateurA.DessinerFigure();
+    DessinateurB.DessinerFigure();
+    DessinateurC.DessinerFigure();
 
-	DessinateurC.SaisirPositionXY(1);
-	DessinateurC.SaisirPositionXY(2);
-
-	DessinateurA.DessinerFigure();
-	DessinateurB.DessinerFigure();
-	DessinateurC.DessinerFigure();
-
-	
-
-	cout << "Cours SL228_POBJ CPP exercice 5" << endl;
-	
-
-
-	cout << "Entrez Q pour quitter !" << endl;
-	cin >> Rep;
-	return 0;
+    std::cout << "Cours SL228_POBJ CPP exercice 5" << std::endl;
+    std::cout << "Entrez Q pour quitter !" << std::endl;
+    std::cin >> Rep;
+    return 0;
 }
 

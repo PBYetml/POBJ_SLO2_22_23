@@ -1,46 +1,46 @@
 #include "Dessinateur.h"
-#include "Figure.h"
 #include "Ligne.h"
-#include "Ellipse.h"
 #include "Rectangle.h"
+#include "Ellipse.h"
+#include <iostream>
 
+// Constructeur de la classe Dessinateur
+Dessinateur::Dessinateur() : MaFigure(nullptr) {}
 
-
-
-void Dessinateur::ConstruireFigure(signed char Choix)
-{
-    m_FigureChoisie
-    switch(Choix)
-        case 'L' :
-            m_FigureChoisie = new Ligne();
-            break;
-        case 'R' :
-            m_FigureChoisie = new Rectangle();
-            break;
-        case 'E':
-            m_FigureChoisie = new Ellipse();
-            break;
-        default:
-            break;
+// Destructeur de la classe Dessinateur (libère la mémoire associée à MaFigure)
+Dessinateur::~Dessinateur() {
+    delete MaFigure;
 }
 
-void Dessinateur::~ConstruireFigure() 
-{
-    delete m_FigureChoisie;
+// Crée une figure en fonction du choix de l'utilisateur
+void Dessinateur::ConstruireFigure(signed char Choix) {
+    delete MaFigure; // Évite les fuites mémoire
+    switch (Choix) {
+    case 'L':
+        MaFigure = new Ligne();
+        break;
+    case 'R':
+        MaFigure = new Rectangle();
+        break;
+    case 'E':
+        MaFigure = new Ellipse();
+        break;
+    default:
+        MaFigure = nullptr;
+        break;
+    }
 }
 
-void Dessinateur::SaisirPositionXY(int NoPoint)
-{
-    std::cout << "Entrez la base du TriangleRectangle : ";
-    std::cin >> x1;
-    EffectuerSaisie(NoPoint);
-    std::cout << "Entrez la base du TriangleRectangle : ";
-    std::cin >> x1;
-    EffectuerSaisie(NoPoint);
+// Saisit la position pour un point de la figure associée
+void Dessinateur::SaisirPositionXY(int NoPoint) {
+    if (MaFigure) {
+        MaFigure->EffectuerSaisie(NoPoint);
+    }
 }
 
-
-void Dessinateur::DessinerFigure()
-{
-    Dessiner();
+// Dessine la figure associée
+void Dessinateur::DessinerFigure() {
+    if (MaFigure) {
+        MaFigure->Dessiner();
+    }
 }

@@ -3,18 +3,15 @@
 
 #include "Figure.h"
 
-
 class Ellipse : public Figure {
-
- public:
-
-    void EffectuerSaisie(int NoPoint);
-
-    void Dessiner();
-
+public:
+    // Constructeur et destructeur
     Ellipse();
-
     ~Ellipse();
+
+    // Méthodes spécifiques à l'ellipse
+    void EffectuerSaisie(int NoPoint) override;
+    void Dessiner() override;
 };
 
 #endif // Ellipse_h

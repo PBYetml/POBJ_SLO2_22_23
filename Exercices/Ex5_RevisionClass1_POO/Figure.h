@@ -3,26 +3,19 @@
 
 #include "Point.h"
 
-
 class Figure {
-
- public:
-
-    virtual void EffectuerSaisie(int NoPoint);
-
-    virtual void Dessiner();
-
+public:
+    // Constructeur et destructeur
     Figure();
-
     virtual ~Figure();
 
- public:
+    // Méthodes virtuelles
+    virtual void EffectuerSaisie(int NoPoint) = 0;
+    virtual void Dessiner() = 0;
 
-    /**
-     * @element-type Point
-     */
-    Point PairePoints[ 2];
-
+protected:
+    // Tableau de deux points définissant la figure
+    Point PairePoints[2];
 };
 
 #endif // Figure_h

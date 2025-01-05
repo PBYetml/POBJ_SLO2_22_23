@@ -3,18 +3,15 @@
 
 #include "Figure.h"
 
-
 class Rectangle : public Figure {
-
- public:
-
-    void EffectuerSaisie(int NoPoint);
-
-    void Dessiner();
-
+public:
+    // Constructeur et destructeur
     Rectangle();
-
     ~Rectangle();
+
+    // Méthodes spécifiques au rectangle
+    void EffectuerSaisie(int NoPoint) override;
+    void Dessiner() override;
 };
 
 #endif // Rectangle_h
