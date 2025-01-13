@@ -1,0 +1,15 @@
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\bin\Debug\net6.0\TESTCS.exe
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\bin\Debug\net6.0\TESTCS.deps.json
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\bin\Debug\net6.0\TESTCS.runtimeconfig.json
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\bin\Debug\net6.0\TESTCS.dll
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\bin\Debug\net6.0\TESTCS.pdb
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\TESTCS.csproj.AssemblyReference.cache
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\TESTCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\TESTCS.AssemblyInfoInputs.cache
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\TESTCS.AssemblyInfo.cs
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\TESTCS.csproj.CoreCompileInputs.cache
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\TESTCS.dll
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\refint\TESTCS.dll
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\TESTCS.pdb
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\TESTCS.genruntimeconfig.cache
+C:\LMS\Git_Mendes\Depot_1\POBJ_SLO2_24_25\DemoCSharp\DemoConsole\TESTCS\obj\Debug\net6.0\ref\TESTCS.dll
