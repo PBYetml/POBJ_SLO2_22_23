@@ -1,0 +1,7 @@
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\POBJ_DEMO_SLO24_25\DemoCSharp\DemoConsole\demo_24_25\Demo_24_25\Demo_24_25\bin\Debug\Demo_24_25.exe.config
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\POBJ_DEMO_SLO24_25\DemoCSharp\DemoConsole\demo_24_25\Demo_24_25\Demo_24_25\bin\Debug\Demo_24_25.exe
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\POBJ_DEMO_SLO24_25\DemoCSharp\DemoConsole\demo_24_25\Demo_24_25\Demo_24_25\bin\Debug\Demo_24_25.pdb
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\POBJ_DEMO_SLO24_25\DemoCSharp\DemoConsole\demo_24_25\Demo_24_25\Demo_24_25\obj\Debug\Demo_24_25.csproj.AssemblyReference.cache
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\POBJ_DEMO_SLO24_25\DemoCSharp\DemoConsole\demo_24_25\Demo_24_25\Demo_24_25\obj\Debug\Demo_24_25.csproj.CoreCompileInputs.cache
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\POBJ_DEMO_SLO24_25\DemoCSharp\DemoConsole\demo_24_25\Demo_24_25\Demo_24_25\obj\Debug\Demo_24_25.exe
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\POBJ_DEMO_SLO24_25\DemoCSharp\DemoConsole\demo_24_25\Demo_24_25\Demo_24_25\obj\Debug\Demo_24_25.pdb

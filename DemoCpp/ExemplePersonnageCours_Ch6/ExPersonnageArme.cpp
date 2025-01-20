@@ -18,6 +18,7 @@ int main(void)
 	// déclaration des personnage
 	// Class -> OBJET 
 	Personnage Bob, Alain;
+	
 
 	// Attribution d'une arme à chaque personnage
 	//myArme = objet => association 
